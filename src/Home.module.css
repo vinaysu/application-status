@@ -1,0 +1,27 @@
+
+.home{
+    width: 50vw;
+    height: 50vh;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: auto;
+    
+}
+.options{
+    width: 30%;
+    min-height: 50%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+    margin: 30px auto;
+    padding: 20px;
+}
+.option{
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+}

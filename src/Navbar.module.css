@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: rgba(98, 83, 83, 0.286);
+    align-items: center;
+    height: 4rem;
+    position: sticky;
+    top: 0px;
+    top: 0px;
+    width: 100%;
+   
+}
+
+
+.right {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.left{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+
+

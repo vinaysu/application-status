@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    gap: 5px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px red solid; */
+    background-color: rgba(133, 144, 144,0.3);
+    min-width: 70vw;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.input {
+    /* max-width: 20%; */
+}
+
+.right {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 2px yellow solid; */
+    max-height: 80vh;
+    min-height: 80vh;
+    padding-top: 80px;
+    padding-left: 30px;
+    text-align: center;
+}
+.input{
+    max-width: 300px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.applications {
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    /* border: 2px solid rgb(66, 143, 206); */
+    margin: 10px  ;
+
+}
+.list{
+    margin-top: 15px;
+}
+
+.item {
+    /* flex: 2; */
+    /* border: 2px solid black; */
+    width: 200px;
+
+   
+}
+
+.dialog {
+    width: 35vw;
+    height: 70vh;
+}
+
+.information {
+    min-height: 50%;
+}
+
+.status {
+    min-height: 20%;
+}
+.statusElement{
+    margin: 10px;
+}
+.printSection{
+    margin: 15px 10px;
+   text-align: right;
+}
